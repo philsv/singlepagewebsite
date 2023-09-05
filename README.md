@@ -6,5 +6,5 @@ Final assignment for the course "Introduction to Web Development with HTML, CSS,
 * Rav Ahuja
 * Michelle Saltoun
 
-# Deployed on vercel
+## Deployed on vercel
 https://singlepagewebsite.vercel.app/
