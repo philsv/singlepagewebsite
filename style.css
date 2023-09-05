@@ -5,7 +5,7 @@ body {
 /* Navigation Bar */
 
 #home {
-  background-color:  #7600bc;
+  background-color:  #0726d4d2;
   padding-bottom: 1cm;
   margin-left:-1cm;
   margin-right:-1cm;
@@ -25,7 +25,9 @@ body {
 
 .topmenu:hover {
   color: white;
-  /* Add the styles here */
+  text-decoration:none;
+  font-weight: bolder;
+  text-decoration: underline;
 }
 
 .topdiv {
@@ -36,6 +38,8 @@ body {
 .profile_name {
   float: left;
   padding-left: 2cm;
+  color: white;
+  font-size: 25px;
   /* Add the styles here */
 }
 
@@ -60,7 +64,7 @@ h2 {
   font-size: 50px;
   text-align: center;
   float: left;
-  color: #7600bc;
+  color: #0726d4d2;
   margin: 30px;
   margin-left: 60px;
   margin-top: 40px;
@@ -94,7 +98,7 @@ h2 {
 #about-me h1 {
   font-size: 65px;
   margin-top: 90px;
-  color: #7600bc;
+  color: #0726d4d2;
 }
 
 #about-me p {
@@ -104,10 +108,16 @@ h2 {
 }
 
 .profile_image {
-  width: 550px;
   height: fit-content;
   vertical-align: middle;
   margin: 5px;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%; /* Makes it circular */
+  object-fit: cover; /* Ensures the image fills the circle without stretching */
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-left: 20px;
 }
 
 /* Skills */
@@ -131,7 +141,8 @@ h2 {
 }
 
 .skill img {
-  height: 35px;
+  margin-top: 20px;
+  height: 60px;
   align-items: center;
 }
 
@@ -155,6 +166,30 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/* Video */
+
+.video {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  max-width: 70%;
+  display: flex;
+  justify-content: center;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+/* Image */
+
+.image1 {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  max-width: 70%;
+  display: flex;
+  justify-content: center;
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
 /* Projects */
@@ -212,7 +247,7 @@ h2 {
 }
 
 .recommendation span {
-  color: #7600bc;
+  color: #0726d4d2;
   font-size: 20px;
   font-family: 'Times New Roman', Times, serif;
 }
@@ -223,7 +258,7 @@ h2 {
   width: 48px;
   height: 48px;
   border-radius: 100%;
-  background-color: #7600bc;
+  background-color: #0726d4d2;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -254,8 +289,8 @@ h2 {
 
 .popup button {
   background-color: #fff;
-  border: 1px solid #7600bc;
-  color: #7600bc;
+  border: 1px solid #0726d4d2;
+  color: #0726d4d2;
   display: block;
   border-radius: 6px;
   text-align: center;
@@ -268,8 +303,8 @@ h2 {
 
 .popup button:hover {
   background-color: #fff;
-  border: 2px solid #7600bc;
-  color: #7600bc;
+  border: 2px solid #0726d4d2;
+  color: #0726d4d2;
   display: block;
   font-weight: bolder;
   text-align: center;
@@ -300,8 +335,8 @@ fieldset {
 
 button {
   background-color: #fff;
-  border: 1px solid #7600bc;
-  color: #7600bc;
+  border: 1px solid #0726d4d2;
+  color: #0726d4d2;
   display: block;
   border-radius: 6px;
   text-align: center;
@@ -312,8 +347,8 @@ button {
 }
 
 button:hover {
-  background-color: #7600bc;
-  border: 1px solid #7600bc;
+  background-color: #0726d4d2;
+  border: 1px solid #0726d4d2;
   color: #fff;
   display: block;
   border-radius: 6px;
